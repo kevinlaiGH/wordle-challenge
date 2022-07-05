@@ -1,3 +1,5 @@
+# wordle-challenge
+
 Wordle instructions:
 
 - You have to guess the Wordle in 6 goes or less
@@ -7,4 +9,3 @@ Wordle instructions:
 - An incorrect letter turns gray
 - Letters can be used more than once
 - Answers are never plurals
-# wordle-challenge
