@@ -36,4 +36,16 @@
   text-transform: uppercase;
 }
 
+.correct{
+  background-color: lightgreen;
+}
+
+.close{
+  background-color: yellow;
+}
+
+.incorrect{
+  background-color: lightgrey;
+}
+
 
