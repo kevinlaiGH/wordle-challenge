@@ -29,6 +29,8 @@
   width: 70px;
   height: 70px;
   border: 1px solid black;
+  border-radius: 20px;
+  border-width: 5px;
   font-size: 55px;
   display: flex;
   justify-content: center;

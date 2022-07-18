@@ -56,6 +56,7 @@ function App() {
       const words = await JSON.parse(response);
       const randomWord = words[Math.floor(Math.random() * words.length)];
       setAnswer(randomWord.toLowerCase());
+      console.log("Answer is ", randomWord.toLowerCase());
     };
     fetchWord();
   }, []);
@@ -63,7 +64,6 @@ function App() {
   return (
     <div className="board">
       <h1 className="App">Wordle</h1>
-      <h1>{JSON.stringify(wordle)}</h1>
       {guesses.map((guess, i) => {
         const isCurrentGuess = i === guesses.findIndex((val) => val == null);
         return (
